@@ -25,6 +25,3 @@ mongoose.connect(process.env.MONGOBD_CONNECTION_STRING,{
 );
 
 app.use("/", require("./routes/userRouter"));
-
-//mtDkj8OULuk6Swzv
-//mongodb+srv://Ilavarasan:<password>@tce.8hxof.mongodb.net/<dbname>?retryWrites=true&w=majority
